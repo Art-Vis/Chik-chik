@@ -1,0 +1,23 @@
+.header__navigation {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 54px;
+  gap: 32px; /* отступ между соседними элементами списка */
+}
+
+.navigation__link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+}

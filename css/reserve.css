@@ -1,0 +1,47 @@
+.reserve {
+  padding: 62px 0;
+}
+
+.reserve__title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.reserve__list {
+  margin: 0;
+  margin-bottom: 72px;
+  padding-left: 25px;
+}
+
+.reserve__item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #BFBDB2;
+}
+
+.reserve__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.fieldset-wrapper:not(:last-child) {
+  margin-bottom: 72px;
+}
+
+.fieldset-wrapper:last-child {
+  margin-bottom: 40px;
+}
+
+.reserve__legend {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}

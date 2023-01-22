@@ -1,0 +1,25 @@
+.preload {
+  position: relative;
+  min-height: 102px;
+}
+
+.preload:after {
+  content: '';
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: calc(50% - 28px);
+  left: calc(50% - 28px);
+  border: 11px double #f6f3e3; /* анимация колесика загрузки */
+  border-radius: 50%; /* анимация колесика загрузки */
+  border-left-style: solid; /* анимация колесика загрузки */
+  animation: rotate .5s infinite linear; /* анимация колесика загрузки */
+}
+
+@keyframes rotate {
+
+  /* анимация колесика загрузки */
+  to {
+    transform: rotate(360deg);
+  }
+}

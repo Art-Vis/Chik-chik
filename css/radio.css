@@ -1,0 +1,60 @@
+.radio__input {
+  position: absolute;
+  -webkit-appearance: none;
+  /* скрывает чекбоксы  */
+  -moz-appearance: none;
+  /* скрывает чекбоксы  */
+  appearance: none;
+  /* скрывает чекбоксы  */
+}
+
+.radio__label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 16px 24px;
+  cursor: pointer;
+  border: 1px solid #BFBDB2;
+  border-radius: 36px;
+  transition: color ease-in-out .3s, background-color ease-in-out .3s;
+}
+
+.radio__label:hover:not(:disabled) {
+  color: #efe7be;
+}
+
+.radio__input:focus+.radio__label,
+.radio__input:checked+.radio__label {
+  color: #241d1c;
+  background-color: #f6f3e3;
+}
+
+.radio__input:disabled+.radio__label {
+  opacity: 0.3;
+}
+
+.radio__label_spec {
+  position: relative;
+  padding-left: 52px;
+
+}
+
+.radio__label_spec::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
